@@ -21,7 +21,9 @@
     <title>Soundpress Records</title>
 
     <!-- Bootstrap -->
-    <link href="/css/bootstrap.css" rel="stylesheet">
+    <link href="/css/bootstrap.css" rel="stylesheet">    
+   <!--Font Awesome -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -49,19 +51,14 @@
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	      <!--<ul class="nav navbar-nav">
-			<li class="dropdown">
-	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social <span class="caret"></span></a>
-	          <ul class="dropdown-menu">
-	            <li><a href="http://twitter.com/sndpress" target="_blank">Twitter</a></li>
-	            <li><a href="http://facebook.com/pages/Soundpress-Records/154489937939017" target="_blank">Facebook</a></li>
-	            <li><a href="https://soundcloud.com/soundpressrecords" target="_blank">Soundcloud</a></li>
-	            <li><a href="http://sndpress.tumblr.com/" target="_blank">Tumblr</a></li>
-	            <li><a href="http://reverbnation.com/soundpressrecords" target="_blank">ReverbNation</a></li>
-	          </ul>
-	        </li>
-	        <li><a href="mailto:admin@soundpressrecords.com">Contact</a></li>
-	      </ul>-->
+	      <ul class="nav navbar-nav">
+		</br>  
+	          	<a href="http://twitter.com/sndpress" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+				<a href="http://facebook.com/pages/Soundpress-Records/154489937939017" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+	            <a href="https://soundcloud.com/soundpressrecords" target="_blank"><i class="fa fa-soundcloud fa-2x"></i></a>
+	            <a href="http://sndpress.tumblr.com/" target="_blank"><i class="fa fa-tumblr fa-2x"></i></a>
+	            <a href="http://reverbnation.com/soundpressrecords" target="_blank"><i class="fa fa-star fa-2x"></i></a>
+	      </ul>
 
 	      <ul class="nav navbar-nav navbar-right">
 	        <li></br>  
@@ -77,6 +74,7 @@
 				    <img alt="" border="0" width="1" height="1"
 				        src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 				</form>
+				</br>
 			</li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -86,8 +84,8 @@
 	<div class="container">  
 		<div class="jumbotron">
 		  <div class="container">
-		   	<h1>Burger & Soundpress: </br>The Tic Tocs' <strong><i>Barista Preista</i></strong></h1>
-			  <p>The Riverside garage rockers present the first of four EPs and one LP in a joint effort by Soundpress Records and Burger Records. It begins end of August.</p>
+		   	<h1>The Tic Tocs' <strong><i>Barista Preista</i></strong></h1>
+			  <p>The Riverside garage rockers present en epic new EP. End of August.</p>
 			  <!--<p><a class="btn btn-primary btn-lg" href="/thetictocs/index.html" role="button" target="_blank">What</a></p>-->
 		  </div>
 		</div> 
@@ -253,26 +251,23 @@
 	    </br>
 		
 	</div>
+	</br>
 	</br> 
-	<footer class="footer">
-	      <div class="container">
-			<div class="col-lg-6">
-			    <div class="input-group">
-			      <input type="text" class="form-control" placeholder="Email">
-			      <span class="input-group-btn">
-			        <button class="btn btn-default" type="button">Subscribe</button>
-			      </span>
-			    </div><!-- /input-group -->
-			  </div>
-	        	<a href="http://twitter.com/sndpress" target="_blank">Twitter</a> | 
-				<a href="http://facebook.com/pages/Soundpress-Records/154489937939017" target="_blank">Facebook</a> | 
-	            <a href="https://soundcloud.com/soundpressrecords" target="_blank">Soundcloud</a> | 
-	            <a href="http://sndpress.tumblr.com/" target="_blank">Tumblr</a> | 
-	            <a href="http://reverbnation.com/soundpressrecords" target="_blank">ReverbNation</a> | 
-				<a href="mailto:admin@soundpressrecords.com">Contact</a>
-				<p class="text-muted">© Soundpress Records, 2015</p>
-	      </div>
-	</footer>
+	      <footer class="footer">
+	        <div class="row">
+	          <div class="col-lg-12">
+                <form class="navbar-form navbar-left" method="post" name="Emailform" action="http://www.soundpressrecords.com/php/contact.php" target="_self" onSubmit="return checkemail(this)">
+			        <div class="form-group">
+			          <input type="text" name="email" class="form-control" placeholder="Email">
+			          <button type="submit" class="btn btn-default">Subscribe</button>
+					</div>
+				</form> 
+				</br>
+	            <p class="text-muted navbar-form navbar-right">© <a href="mailto:admin@soundpressrecords.com">Soundpress Records</a>, 2015</p>
+	          </div>
+	        </div>
+	        </br>
+	      </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
